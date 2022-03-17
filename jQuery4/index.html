@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   
+   <script src="jQuery.js"></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+      <h1>Shopping Website</h1>
+       <div id="button">
+         <script>
+            let buttons = ['Bike', 'Shirt', 'phone', 'Book', 'T-shirt'];
+            buttons.map(function (value) {
+               document.write(`<button type='button'  data-size=${value} class='btn'>${value}</button>`);
+               console.log(value);
+            })
+         </script>
+          <span id="total"><b>Total=</b><span id="amount"></span></span> 
+      </div>  
+   
+   <div>
+   <div id="objPoduct"></div>
+</div>
+<script src="jqueryjs4.js"></script>
+
+</body>
+
+</html>

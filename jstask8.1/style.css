@@ -1,0 +1,82 @@
+
+/*  Here we put For Images */
+
+h1{
+	text-align: center;
+	
+}
+.Table{
+    
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        padding-top: 20px;
+      
+}
+.btn{
+  border: 2px solid grey;
+  margin-top: 10px;
+  padding: 5px;
+  width: 10%;
+  border-radius: 7px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color:slateblue;
+
+}
+div .main2{
+    width: 100%;
+}
+    .image{
+        margin-top: 25px;
+        text-align: center;
+        display: inline-flexbox;
+        justify-content: space-between;
+         margin: auto;
+         background-color: rgb(211, 180, 140);
+    }
+
+.image img{
+   height: 270px;
+   width: 350px;
+   padding: 12px;
+  }
+.image p{
+  
+   align-items: center;
+   font-size: 16px;
+    }
+.main{
+    display: flex;
+    height: 20px;
+}
+
+table{
+	width: 85%;
+}
+
+table,td,tr,th{
+    
+    background-color:  #59b1d4;
+    text-align: center;
+    font-size: 18px;
+    }
+.img{
+    height: 10px;
+    margin-top: 10px;
+}
+.cart1 {
+	margin-bottom: 30px;
+	width: 100px;
+	height: 40px;
+    font-weight: bold;
+	border-radius: 5px;
+	background-color: #2222a3;
+    color:white;
+	
+}
+
+
+      
+    

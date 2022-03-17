@@ -1,0 +1,60 @@
+body
+{
+	margin: 0;
+	padding: 0;
+  background-color: rgb(75, 180, 166);
+}
+h1{
+  text-align: center;
+}
+img { width: 250px;  
+  margin-right: auto;}
+img { height: 200px; }
+#box1{
+  background: #758fd3;
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  #objPoduct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .name{
+    font-size: 30px;
+  }
+  .price{
+    font-size: 30px;
+  }
+  #button{
+    height: 70px;
+    background-color: rgb(197, 90, 188);
+    display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 15px;
+  }
+  button{
+    margin-top: 20px;
+    height: 30px;
+    padding-left: 95px;
+    padding-right: 95px;
+    border-radius: 10px;
+    background-color: rgb(196, 35, 48); 
+    font-size: 17px;
+  }
+  #total{
+    font-size: 30px;
+    color:rgb(21, 94, 136);margin-left: 10px;
+  }
+
+.selected{
+  background-color:  #8d0606; 
+  border: none;
+  color: rgb(40, 146, 19);
+  font-size: 17px;
+ 
+}
